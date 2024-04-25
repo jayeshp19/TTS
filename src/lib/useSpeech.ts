@@ -14,7 +14,7 @@ const useSpeech = (sentences: Array<string>) => {
   const [currentSentenceIdx, setCurrentSentenceIdx] = useState(0);
   const [currentWordRange, setCurrentWordRange] = useState([0, 0]);
 
-  const [playbackState, setPlaybackState] = useState<PlayingState>("intialized");
+  const [playbackState, setPlaybackState] = useState<PlayingState>("initialized");
 
   const speechEngine = createSpeechEngine({
     onBoundary: (e) => {
