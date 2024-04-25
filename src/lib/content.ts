@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5174/content";
+const API_URL = "api/content";
 
 /**
  * Fetch the content from the api
